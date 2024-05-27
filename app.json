@@ -1,14 +1,14 @@
 { 
-  "name": "KING-MD",
-  "description": "A Whatsapp md bot built By Naveed to make experience better",
-  "logo": "https://telegra.ph/file/a6b9bbde7feaa92c69c7b.jpg",
+  "name": "𝐈ᴢᴜᴋᴏ 𝐁ᴏᴛ 𝐌ᴅ",
+  "description": "A Whatsapp md bot built By Aditya to make experience better",
+  "logo": "https://telegra.ph/file/015fdacb77af122a77bbf.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "King-Two", "KING-MD", "KING","king-Bot","theme bot","multi device","baileys"],
   "success_url": "/",
   "stack": "container",
 "env": {
   "OWNER_NAME": {
   "description": "OWNER NAME",
-      "value": "NAVEED DOGAR"
+      "value": "✪⏤͟͞★⃝ꪶ‎𝐀ᴅɪᴛʏᴀ-𝐗ᴅ-𖥘✪͜͡➺"
   },
     "AUTO_STATUS_SAVER": {
       "description": "Automatically saves status of every person and sends in log number.",
@@ -29,7 +29,7 @@
     },
    "THUMB_IMAGE": {
     "description": "Put Your Image Url for bot.",
-     "value": "https://telegra.ph/file/a6b9bbde7feaa92c69c7b.jpg"
+     "value": "https://telegra.ph/file/015fdacb77af122a77bbf.jpg"
     },
     "ANTI_BAD_WORD": {
     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
@@ -67,7 +67,7 @@
     "BOT_NAME": {
 	    "description": "Choose your bot name",
 	    "required": "true",
-	    "value": "*KING-MD*"
+	    "value": "𝐈ᴢᴜᴋᴏ 𝐁ᴏᴛ 𝐌ᴅ"
 },
     "DISABLE_PM": {
       "description": "Disable bot in pm",
