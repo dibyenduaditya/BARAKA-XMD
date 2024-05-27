@@ -6,21 +6,21 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 global.owner = process.env.OWNER_NUMBER.split(",")
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://KING-MDBOT:KING-MDBOT@cluster0.ltjjfkx.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
-global.email = 'textnow1pak@gmail.com'
-global.github = 'https://github.com/naveeddogar/KING-MD'
-global.location = 'pakistan'
-global.gurl = 'https://instagram.com/naveeddogar_' // add your username
-global.sudo = process.env.SUDO || '923096566451'
-global.devs = '923096566451';
-global.website = 'https://github.com/naveeddogar/KING-MD' // Hello world
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/a6b9bbde7feaa92c69c7b.jpg'
+global.email = 'adityacreations73@gmail.com'
+global.github = 'https://github.com/dibyenduaditya'
+global.location = 'India,Kolkata'
+global.gurl = 'https://instagram.com/i_aam_adi07' // add your username
+global.sudo = process.env.SUDO || '918653805156'
+global.devs = '918653805156';
+global.website = 'https://chat.whatsapp.com/JOaYBcxKWhqGRapHAr59xw' // Hello world
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/015fdacb77af122a77bbf.jpg'
 module.exports = {
-  botname:   process.env.BOT_NAME === undefined ? 'KING-MD' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'Naveed Dogar' : process.env.OWNER_NAME,
+  botname:   process.env.BOT_NAME === undefined ? '𝐈ᴢᴜᴋᴏ 𝐁ᴏᴛ 𝐌ᴅ' : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? '✪⏤͟͞★⃝ꪶ‎𝐀ᴅɪᴛʏᴀ-𝐗ᴅ-𖥘✪͜͡➺' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
-  author:  process.env.PACK_AUTHER.split(";")[0] === undefined ? 'Naveed-Dogar' : process.env.PACK_AUTHER.split(";")[0],
+  author:  process.env.PACK_AUTHER.split(";")[0] === undefined ? '[ !! < 𝐌ʀ.x-𝐀ᴅɪᴛʏᴀ > !! ]' : process.env.PACK_AUTHER.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS  || 'true' ,
-  packname:  process.env.PACK_NAME.split(";")[1] === undefined ? 'King-Md' : process.env.PACK_NAME.split(";")[1],
+  packname:  process.env.PACK_NAME.split(";")[1] === undefined ? 'Sticker by' : process.env.PACK_NAME.split(";")[1],
   autoreaction:  process.env.AUTO_REACTION ||  'true' ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nigga' : process.env.ANTI_BAD_WORD,
   alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
